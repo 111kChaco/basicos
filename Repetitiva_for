@@ -1,0 +1,15 @@
+package repetitiva_for;
+
+public class -repetiviva_for {
+
+    public static void main(String[] args) {
+        int n;
+        
+        for (n=1;n<=10;n++)  // para una variable "n" que comienza con el valor 1; mientras n sea menor o igual que 10; cada vez que pasa por aca le suma 1 a n
+            System.out.print(n+ " "); // muestra los valores que toma la variable n, colocándolos uno al lado del otro
+
+        System.out.println(""); // solo para que vaya a la linea siguiente
+        
+    }
+    
+}
