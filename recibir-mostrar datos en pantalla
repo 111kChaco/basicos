@@ -6,14 +6,21 @@ public class manejo_pantalla_teclado {
 
     public static void main(String[] args) {
           int num;
+          string texto;
           
           // creamos la clase leer de tipo scanner
           Scanner leer = new Scanner(System.in); 
     
           System.out.print ("Ingrese un numero ");
-          num=leer.nextInt(); // toma el proximo entero que se ingrese por teclado y lo guarda en num.
+          num=leer.nextInt(); // toma el proximo entero que se ingrese por teclado y lo guarda en la variable "num".
           
           System.out.println ("el numero es: " + num);           
-    }
+
+          System.out.print ("Ingrese un nombre ");
+          texto=leer.next(); // toma el proximo datos que se ingrese por teclado y lo guarda en la variable "texto".
+          
+          System.out.println ("el texto ingresado fue: " + texto);           
+
+}
     
 }
